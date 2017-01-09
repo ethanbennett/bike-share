@@ -23,3 +23,5 @@ group :test do
   gem 'nyan-cat-formatter'
   gem 'database_cleaner'
 end
+
+gem 'rails_12factor', group: :production
