@@ -4,6 +4,7 @@ gem 'sinatra', require: 'sinatra/base'
 gem 'pg'
 gem 'activerecord'
 gem 'sinatra-activerecord'
+gem 'smarter_csv'
 
 group :development, :test do
   gem 'shotgun'
@@ -15,7 +16,6 @@ group :development, :test do
   gem 'rack-test'
   gem 'pry'
   gem 'pry-byebug'
-  gem 'smarter_csv'
   gem 'rb-readline'
 end
 
