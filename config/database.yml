@@ -11,4 +11,6 @@ test:
 production:
   adapter: postgresql
   database: bike-share-production
-
+  encoding: unicode
+  pool: 5
+  timeout: 5000
